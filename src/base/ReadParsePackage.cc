@@ -1,7 +1,10 @@
 #include "ReadParsePackage.hpp"
 
 #include <stdio.h>
-
+#include <cmath>
+#include <list>
+#include <mutex>
+#include <thread>
 #include <chrono>
 // ver. 2021-1-19
 #define CENTER_BASE_ANGLE 21.0  //线性补偿角度
